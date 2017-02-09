@@ -2,6 +2,10 @@
   "name": "objecthash",
   "version": "1.0.1",
   "description": "JS implementation of Ben Laurie's objecthash (https://github.com/benlaurie/objecthash)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/emschwartz/objecthash-js"
+  },
   "main": "index.js",
   "scripts": {
     "test": "node test.js"
