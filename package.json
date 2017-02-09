@@ -1,6 +1,6 @@
 {
   "name": "objecthash",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "JS implementation of Ben Laurie's objecthash (https://github.com/benlaurie/objecthash)",
   "main": "index.js",
   "scripts": {
@@ -17,8 +17,7 @@
   ],
   "author": "Evan Schwartz <evan@ripple.com>",
   "license": "Apache-2.0",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "tape": "^4.6.3"
   }
