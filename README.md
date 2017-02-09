@@ -1,6 +1,10 @@
 # objecthash
 > Implementation of [Ben Laurie's objecthash](https://github.com/benlaurie/objecthash) in Javascript
 
+## Installation
+
+`npm install --save objecthash`
+
 ## Usage
 Takes any JSON value and returns a `Buffer` with the SHA-256 `objecthash`, derived using Ben Laurie's algorithm.
 
