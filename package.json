@@ -1,0 +1,19 @@
+{
+  "name": "objecthash-js",
+  "version": "1.0.0",
+  "description": "JS implementation of Ben Laurie's objecthash (https://github.com/benlaurie/objecthash)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "objecthash",
+    "hash",
+    "json"
+  ],
+  "author": "Evan Schwartz <evan@ripple.com>",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "bignumber.js": "^4.0.0"
+  }
+}
