@@ -1,5 +1,5 @@
 {
-  "name": "objecthash-js",
+  "name": "objecthash",
   "version": "1.0.0",
   "description": "JS implementation of Ben Laurie's objecthash (https://github.com/benlaurie/objecthash)",
   "main": "index.js",
