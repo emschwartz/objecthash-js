@@ -18,8 +18,10 @@ test('boolean', function (t) {
 })
 
 test('number', function (t) {
-  t.plan(2)
+  t.plan(4)
 
+  t.equal(objectHash(0).toString('hex'), '60101d8c9cb988411468e38909571f357daa67bff5a7b0a3f9ae295cd4aba33d')
+  t.equal(objectHash(-0.1).toString('hex'), '55ab03db6fbb5e6de473a612d7e462ca8fd2387266080980e87f021a5c7bde9f')
   t.equal(objectHash(1.2345).toString('hex'), '844e08b1195a93563db4e5d4faa59759ba0e0397caf065f3b6bc0825499754e0')
   t.equal(objectHash(-10.1234).toString('hex'), '59b49ae24998519925833e3ff56727e5d4868aba4ecf4c53653638ebff53c366')
 })
