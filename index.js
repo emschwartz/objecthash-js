@@ -1,7 +1,6 @@
 'use strict'
 
 const crypto = require('crypto')
-const BigNumber = require('bignumber.js')
 
 const NIL_STRING = 'n'
 const UNICODE_STRING = 'u'
