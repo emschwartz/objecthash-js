@@ -10,7 +10,10 @@
     "objecthash",
     "hash",
     "json",
-    "benlaurie"
+    "benlaurie",
+    "object",
+    "hash",
+    "sha256"
   ],
   "author": "Evan Schwartz <evan@ripple.com>",
   "license": "Apache-2.0",
